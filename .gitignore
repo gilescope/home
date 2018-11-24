@@ -1,0 +1,7 @@
+*
+!/.*
+.viminfo
+.mutlirust
+.DS_Store
+.*_history
+.wget-hstsy
