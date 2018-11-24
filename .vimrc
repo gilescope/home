@@ -1,6 +1,11 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+"Use system clipboard by default
+set clipboard=unnamed
+
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4
+
 set shell=bash
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -11,6 +16,9 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+" turn hybrid line numbers on
+set number relativenumber
+set nu rnu
 
 "CTRL-t to toggle tree view with CTRL-t
 nmap <silent> <C-t> :NERDTreeToggle<CR>
@@ -32,7 +40,8 @@ Plug 'rust-lang/rust.vim'
 Plug 'junegunn/seoul256.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
-Plug 'Valloric/YouCompleteMe'
+Plug 'zxqfl/tabnine-vim'
+"Plug 'Valloric/YouCompleteMe'
 Plug 'vim-syntastic/syntastic'
 Plug 'scrooloose/nerdtree'
 call plug#end()

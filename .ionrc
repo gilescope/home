@@ -1,3 +1,4 @@
 echo Config by ~/.ionrc . Hello Giles.
 export PATH=$PATH:/Users/gilescope/dotnet2:/Users/gilescope/.nuget/packages/grpc.tools/1.15.0/tools/macosx_x64:/usr/local/bin:/Users/gilescope/.cargo/bin:/Users/gilescope/q/m32
+source ~/.profile
 ion
