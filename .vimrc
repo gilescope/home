@@ -36,10 +36,11 @@ let g:autofmt_autosave = 1
 set mouse=a
 
 call plug#begin('~/.vim/plugged')
-Plug 'rust-lang/rust.vim'
-Plug 'junegunn/seoul256.vim'
-Plug 'junegunn/goyo.vim'
-Plug 'junegunn/limelight.vim'
+"Plug 'rust-lang/rust.vim'
+"Plug 'junegunn/seoul256.vim'
+"Plug 'junegunn/goyo.vim'
+"Plug 'junegunn/limelight.vim'
+Plug 'ntpeters/vim-better-whitespace'
 Plug 'zxqfl/tabnine-vim'
 "Plug 'Valloric/YouCompleteMe'
 Plug 'vim-syntastic/syntastic'

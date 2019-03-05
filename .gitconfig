@@ -8,4 +8,9 @@
 	process = git-lfs filter-process
 	required = true
 [pager]
-	branch = false
+    branch = false
+[diff]
+    tool = vimdiff
+[alias]
+    b = branch
+    cm = commit -v 
