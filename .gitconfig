@@ -13,4 +13,8 @@
     tool = vimdiff
 [alias]
     b = branch
-    cm = commit -v 
+    cm = commit -v
+[rebase]
+	autostash = true
+[pull]
+	rebase = true
