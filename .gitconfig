@@ -18,3 +18,6 @@
 	autostash = true
 [pull]
 	rebase = true
+[core]
+	autocrlf = true
+	filemode = false
