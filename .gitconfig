@@ -22,3 +22,7 @@
     # auto doesn't play well with vim plugins.
     autocrlf = input
 	filemode = false
+[push]
+	default = current
+[credential]
+	helper = osxkeychain
